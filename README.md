@@ -1,5 +1,9 @@
 # MJD PSU Monitor
 
+![MJD PSU Monitor showing live PSU readings](mjd-psu-monitor.png)
+
+[Download the latest release](https://github.com/Tabat99/mjd-psu-monitor/releases/latest)
+
 **An independent Linux desktop monitor for compatible Corsair power supplies.**
 
 MJD PSU Monitor displays PSU telemetry in a GTK interface, with system tray
