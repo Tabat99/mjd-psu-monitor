@@ -1,0 +1,9 @@
+#ifndef MJD_PSU_APP_CONFIG_H
+#define MJD_PSU_APP_CONFIG_H
+#define APP_TITLE "MJD PSU Monitor"
+#define APP_SUBTITLE "For compatible Corsair power supplies"
+#define APP_NOTICE "This is independent software developed by mjd. It is not developed, sponsored, endorsed by, or affiliated with CORSAIR.\n\nCORSAIR is a registered trademark of its respective owner. Product names are used solely to identify compatible hardware."
+#define APP_VERSION "@PROJECT_VERSION@"
+static const char APP_LICENSE_TEXT[] = "@APP_LICENSE_C@";
+static const char APP_ICON_SVG[] = "@APP_ICON_SVG_C@";
+#endif

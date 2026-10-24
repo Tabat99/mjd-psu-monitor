@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=MJD PSU Monitor
+Comment=Independent monitor for compatible Corsair power supplies
+Exec=mjd-psu-monitor
+Icon=mjd-psu-monitor
+Terminal=false
+Categories=System;Monitor;
+StartupNotify=true
