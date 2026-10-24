@@ -1,6 +1,8 @@
 # MJD PSU Monitor
 
-![MJD PSU Monitor showing live PSU readings](mjd-psu-monitor.png)
+<img src="mjd-psu-monitor.png"
+     alt="MJD PSU Monitor showing live PSU readings"
+     width="450">
 
 [Download the latest release](https://github.com/Tabat99/mjd-psu-monitor/releases/latest)
 
