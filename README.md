@@ -103,11 +103,12 @@ not install them.
 The `.deb` includes a desktop menu launcher and icon. Runtime library
 dependencies are calculated using `dpkg-shlibdeps`.
 
-For version 1.3.1 on an amd64 system:
+On an amd64 system:
 
 ```bash
-sudo apt install ./dist/mjd-psu-monitor_1.3.1_amd64.deb
+sudo apt install ./dist/mjd-psu-monitor_1.x.y_amd64.deb
 ```
+where x is the version sub numbers. E.g. sudo apt install ./dist/mjd-psu-monitor_1.3.2_amd64.deb
 
 Use the actual filename generated on your machine. To uninstall:
 
@@ -117,12 +118,15 @@ sudo apt remove mjd-psu-monitor
 
 ### AppImage
 
-For version 1.3.1 on an x86_64 system:
+On an x86_64 system:
 
 ```bash
-chmod +x dist/MJD-PSU-Monitor-1.3.1-x86_64.AppImage
-./dist/MJD-PSU-Monitor-1.3.1-x86_64.AppImage
+chmod +x dist/MJD-PSU-Monitor-1.x.y-x86_64.AppImage
+./dist/MJD-PSU-Monitor-1.x.y-x86_64.AppImage
 ```
+where x is the version sub numbers. E.g. 
+chmod +x dist/MJD-PSU-Monitor-1.3.2-x86_64.AppImage
+./dist/MJD-PSU-Monitor-1.3.2-x86_64.AppImage
 
 Keep the AppImage at a permanent location before enabling login startup.
 If FUSE is unavailable, try launching with `--appimage-extract-and-run`.
@@ -201,7 +205,7 @@ copy you intend to use. Disable startup before removing the executable.
 
 User configuration paths respect `XDG_CONFIG_HOME`.
 
-`version.ini` contains only a version such as `1.3.1`, using
+`version.ini` contains only a version such as `1.3.2`, using
 `major.minor.patch`. CMake validates and embeds it during the build. The MIT
 license and app icon are embedded too, so their source files are not required
 beside the executable. The About window displays the version and full license.
